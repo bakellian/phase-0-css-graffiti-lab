@@ -3,14 +3,30 @@
     display: none;
   }
 
-  .tag-2 {
+  /* working */
+  div#wall div#tag-2{
       display: none;
   }
 
-  #tag-3 .slick-wicked {
+  /* working */
+#div#tag-3.slick-wicked {
     display: none;
   }
 
-  parent div {
-      display: none;
-  }
+ #wall.parent#tag-4 {
+    display: none;
+}
+
+#wall#tag-5.slick {
+    display: none;
+}
+
+div > div {
+    display: none;
+}
+
+
+
+
+
+
